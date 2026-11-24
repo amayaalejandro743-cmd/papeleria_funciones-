@@ -1,0 +1,20 @@
+PRUEBAS DEL TALLER - PAPELERÍA CON FUNCIONES
+Integrante: Alejandro Alberto Amaya Gutierrez 
+
+Prueba                     | Entrada                                  | Esperado                | Obtenido                | Coincide
+---------------------------|------------------------------------------|-------------------------|-------------------------|---------
+Subtotal                   | 1500, 2                                  | 3000                    | 3000                    | Sí(segun el producto cullo valor sea igual)
+Subtotal                   | 8000, 3                                  | 24000                   | 24000                   | Sí
+Subtotal con cero unidades | 1000, 0                                  | 0                       | 0                       | Sí
+Contar unidades            | Cinco productos iniciales                | 33                      | 33                      | Sí
+Contar unidades            | []                                       | 0                       | 0                       | Sí
+Valor del inventario       | Cinco productos iniciales                | 97500                   | 97500                   | Sí
+Valor del inventario       | []                                       | 0                       | 0                       | Sí
+Conservar el inventario    | Comparar antes y después de las llamadas | Mismos campos y valores | Mismos campos y valores | Sí
+
+RETO OPCIONAL
+
+Prueba          | Entrada | Esperado               | Obtenido               | Coincide
+----------------|---------|------------------------|------------------------|---------
+Buscar producto | 102     | Cuaderno               | Cuaderno               | Sí
+Buscar producto | 999     | Producto no encontrado | Producto no encontrado | Sí
